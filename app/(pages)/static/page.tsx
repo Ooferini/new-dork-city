@@ -2,9 +2,6 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import ss1 from '../../../public/images/work/static/static-1.jpg';
 
 export default function page() {
