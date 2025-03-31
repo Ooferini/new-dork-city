@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import me from '../public/me.jpg';
+import me from '../public/images/me.jpg';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <div className='col-span-3 row-span-4'>
           <Image src={me} width={2000} alt='an image of me, Josef!'></Image>
         </div>
-        <div className='p-20 col-span-3 row-span-4 text-2xl font-sans flex flex-col justify-around'>
+        <div className='p-20 col-span-3 row-span-4 text-2xl font-sans flex flex-col justify-around bg-whiteish'>
           <p>
             Hello! I’m Josef, a web designer with a passion for making
             good-looking, intuitive designs.
@@ -35,13 +35,13 @@ export default function Home() {
             </svg>
           </Link>
         </div>
-        <div className='col-span-4 row-span-7 justify-between gap-10 bg-buffalo flex flex-col font-mono p-20 text-3xl text-whiteish'>
+        <div className='col-span-4 row-span-7 justify-between  bg-buffalo font-mono pl-26 p-20 flex flex-col gap-10 text-3xl text-whiteish'>
           <p>WORK</p>
-          <ul className='list-disc'>
-            <Link href='/work/wnyu/'>
+          <ol className='list-decimal'>
+            <Link href='/wnyu/'>
               <li className='hover:underline hover:cursor-pointer'>WNYU</li>
             </Link>
-            <Link href='/work/static/'>
+            <Link href='/static/'>
               <li className='hover:underline hover:cursor-pointer'>STATIC</li>
             </Link>
             <Link href='/work/eroft/'>
@@ -52,10 +52,10 @@ export default function Home() {
             </Link>
             <Link href='/work/penaltybox/'>
               <li className='hover:underline hover:cursor-pointer'>
-                BEATMAKING
+                PENALTYBOX
               </li>
             </Link>
-          </ul>
+          </ol>
         </div>
         <div className='col-span-2 row-span-7 bg-newyork'></div>
       </div>
