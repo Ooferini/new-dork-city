@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function about() {
   return (
-    <div className='flex flex-row text-whiteish'>
-      <div className='w-2/3 p-20 flex flex-col gap-10'>
+    <div className='pt-16 flex flex-row bg-newyork text-whiteish'>
+      <div className='w-2/3 p-20 flex flex-col gap-10 bg-buffalo'>
         <p className='text-5xl font-selectric underline'>about me</p>
         <p className='text-2xl  font-mono'>
           Hello! I&apos;m Josef, a web designer with a passion for making
@@ -21,7 +21,7 @@ export default function about() {
           uplift musicians and music lovers with technology and design.
         </p>
       </div>
-      <div className='w-1/3  flex flex-col justify-around p-20'>
+      <div className='w-1/3 bg-buffalo flex flex-col justify-around p-20'>
         <Image
           src={me}
           height={1000}

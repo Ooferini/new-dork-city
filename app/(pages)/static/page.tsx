@@ -46,7 +46,7 @@ export default function page() {
   // });
 
   return (
-    <div className='flex flex-col text-whiteish'>
+    <div className='flex flex-col text-whiteish bg-buffalo pt-16'>
       <div className='bg-whiteish flex flex-row py-20 justify-around w-full'>
         <div className='flex w-1/3 flex-col justify-around'>
           <p className='font-mono text-blackish text-4xl mx-auto'>STATIC</p>

@@ -46,7 +46,7 @@ export default function page() {
   // });
 
   return (
-    <div className='flex flex-col text-whiteish'>
+    <div className='pt-16 bg-newyork flex flex-col text-whiteish'>
       <div className='bg-whiteish flex flex-row py-20 justify-around w-full'>
         <div className='flex w-1/3 flex-col justify-around'>
           <p className='font-mono text-blackish text-4xl mx-auto'>WNYU</p>
