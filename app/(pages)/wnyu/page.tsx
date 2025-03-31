@@ -53,7 +53,7 @@ export default function page() {
         </div>
         <div className='flex w-2/3 flex-col justify-around'>
           <p className='mx-auto font-selectric text-blackish text-3xl'>
-            NYU's student-run radio station
+            NYU&apos;s student-run radio station
           </p>
         </div>
       </div>
@@ -64,7 +64,7 @@ export default function page() {
               <p className='underline font-selectric text-3xl'>about</p>
               <p className='text-lg font-mono'>
                 I have been a DJ at WNYU since my first semester at NYU, and as
-                of Fall 24, I've also served as the Tech Director of the
+                of Fall 24, I&apos;ve also served as the Tech Director of the
                 station. This means I maintain the website, but most of my work
                 has been on developing our new website!
               </p>
@@ -76,8 +76,8 @@ export default function page() {
                 >
                   Harry Minsky
                 </Link>
-                , the previous Tech Director at the station, and I've learned so
-                much from him. Thanks Harry
+                , the previous Tech Director at the station, and I&apos;ve
+                learned so much from him. Thanks Harry
               </p>
               <p className='underline font-selectric text-3xl'>goal</p>
               <p className='text-lg font-mono'>

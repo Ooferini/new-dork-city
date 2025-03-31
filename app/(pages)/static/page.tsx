@@ -53,7 +53,7 @@ export default function page() {
         </div>
         <div className='flex w-2/3 flex-col justify-around'>
           <p className='mx-auto font-selectric text-blackish text-3xl'>
-            wnyu's online music magazine
+            wnyu&apos;s online music magazine
           </p>
         </div>
       </div>
@@ -63,9 +63,10 @@ export default function page() {
             <div className='w-full p-20 flex flex-col gap-10'>
               <p className='underline font-selectric text-3xl'>about</p>
               <p className='text-lg font-mono'>
-                I co-founded/revived STATIC, WNYU's sporadically-printed program
-                guide in Spring 2023 and have been serving as its labelless
-                'tech guy' ever since. We started with a site on{' '}
+                I co-founded/revived STATIC, WNYU&apos;s sporadically-printed
+                program guide in Spring 2023 and have been serving as its
+                labelless &apos;tech guy&apos; ever since. We started with a
+                site on{' '}
                 <Link
                   href='https://cargo.site'
                   className='underline decoration-dashed hover:cursor-pointer hover:decoration-solid'
@@ -74,8 +75,8 @@ export default function page() {
                 </Link>
                 , then we overhauled the site using WordPress.{' '}
                 <span className='text-greyish'>
-                  (Also we're working on re-doing it again in React using the
-                  Sanity CMS, stay tuned)
+                  (Also we&apos;re working on re-doing it again in React using
+                  the Sanity CMS, stay tuned)
                 </span>
               </p>
               <p className='underline font-selectric text-3xl'>goal</p>
