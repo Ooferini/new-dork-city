@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import ss1 from '../../../public/images/work/static/static-1.jpg';
+import ss2 from '../../../public/images/work/static/static-2.jpg';
 
 export default function page() {
   // useGSAP(() => {
@@ -49,7 +50,27 @@ export default function page() {
     <div className='flex flex-col text-whiteish bg-buffalo pt-16'>
       <div className='bg-whiteish flex flex-row py-20 justify-around w-full'>
         <div className='flex w-1/3 flex-col justify-around'>
-          <p className='font-mono text-blackish text-4xl mx-auto'>STATIC</p>
+          <Link
+            href='https://staticmag.org'
+            target={'_blank'}
+            className='font-mono text-blackish text-4xl mx-auto flex flex-row gap-5 hover:cursor-pointer hover:underline'
+          >
+            STATIC
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              fill='none'
+              viewBox='0 0 24 24'
+              strokeWidth={1.5}
+              stroke='currentColor'
+              className='size-8 pt-2'
+            >
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                d='M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25'
+              />
+            </svg>
+          </Link>
         </div>
         <div className='flex w-2/3 flex-col justify-around'>
           <p className='mx-auto font-selectric text-blackish text-3xl'>
@@ -84,21 +105,25 @@ export default function page() {
                 The initial goal for the revival of STATIC, was a print magazine{' '}
                 <span className='text-greyish'>(which we eventually made)</span>
                 , but the school was... averse to that idea and encouraged us to
-                just put it online. We
+                just put it online.
               </p>
             </div>
           </div>
         </div>
-        <div className='w-1/2'>
-          <div
-            id='rightScroll'
-            className='flex flex-col gap-20 justify-around h-200'
-          >
+        <div className='w-1/2 p-20'>
+          <div id='rightScroll' className='flex flex-col gap-20 justify-around'>
             <Image
               alt='me'
               width='500'
               height='200'
               src={ss1}
+              className='mx-auto'
+            ></Image>
+            <Image
+              alt='me'
+              width='500'
+              height='200'
+              src={ss2}
               className='mx-auto'
             ></Image>
           </div>

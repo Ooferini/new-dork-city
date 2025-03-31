@@ -21,6 +21,12 @@
   --color-newyork: #d63535;
 }
 
-.container-hf {
-  height: calc(100dvh - 8rem);
+@layer utilities {
+  .container-hf {
+    height: calc(100dvh - 4rem);
+  }
+
+  .pause {
+    animation-play-state: paused;
+  }
 }

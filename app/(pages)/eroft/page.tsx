@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import ss1 from '../../../public/images/work/wnyu/wnyu-1.jpg';
+import ss1 from '../../../public/images/work/static/static-1.jpg';
 
 export default function page() {
   // useGSAP(() => {
@@ -46,15 +46,14 @@ export default function page() {
   // });
 
   return (
-    <div className='pt-16 bg-newyork flex flex-col text-whiteish'>
-      <div className='bg-whiteish flex flex-row py-20 justify-around w-full'>
+    <div className='flex flex-col text-whiteish bg-newyork pt-16'>
+      <div className='bg-blackish flex flex-row py-20 justify-around w-full'>
         <div className='flex w-1/3 flex-col justify-around'>
           <Link
-            href='https://wnyu.vercel.app'
-            target={'_blank'}
-            className='font-mono text-blackish text-4xl mx-auto flex flex-row gap-5 hover:cursor-pointer hover:underline'
+            href='https://motherforking.github.io/EROFT'
+            className='font-mono text-whiteish text-4xl mx-auto flex flex-row gap-5 hover:cursor-pointer hover:underline'
           >
-            WNYU
+            EROFT
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
@@ -72,8 +71,8 @@ export default function page() {
           </Link>
         </div>
         <div className='flex w-2/3 flex-col justify-around'>
-          <p className='mx-auto font-selectric text-blackish text-3xl'>
-            NYU&apos;s student-run radio station
+          <p className='mx-auto font-selectric text-whiteish text-3xl'>
+            classwork for Electronic Rituals, Oracles, and Fortune Telling
           </p>
         </div>
       </div>
@@ -82,33 +81,35 @@ export default function page() {
           <div id='leftScroll' className='flex flex-col justify-around h-100'>
             <div className='w-full p-20 flex flex-col gap-10'>
               <p className='underline font-selectric text-3xl'>about</p>
-              <p className='text-lg font-mono'>
-                I have been a DJ at WNYU since my first semester at NYU, and as
-                of Fall 24, I&apos;ve also served as the Tech Director of the
-                station. This means I maintain the website, but most of my work
-                has been on developing our new website!
-              </p>
-              <p className='text-lg font-mono'>
-                This project was started by{' '}
+              <p className='text-lg'>
                 <Link
-                  href='https://github.com/hminsky2002'
                   className='underline decoration-dashed hover:cursor-pointer hover:decoration-solid'
+                  href='https://eroft.decontextualize.com'
                 >
-                  Harry Minsky
+                  Electronic Rituals, Oracles, and Fortune Telling
+                </Link>{' '}
+                is a class I took in the Interactive Media Arts (IMA) program at
+                NYU in Fall 2023. It was less about learning any particular
+                skill and more about exploring artistically the ideas of ritual
+                and fortune-telling in a digital media art context. Equipped
+                with my (at the time less-developed) web design/development
+                skills, I created five &apos;meditations&apos; as well as a
+                final project. The projects, along with documentation, can be
+                found on my{' '}
+                <Link
+                  className='underline decoration-dashed hover:cursor-pointer hover:decoration-solid'
+                  href='https://motherforking.github.io/EROFT'
+                >
+                  class site
                 </Link>
-                , the previous Tech Director at the station, and I&apos;ve
-                learned so much from him. Thanks Harry
+                .
               </p>
               <p className='underline font-selectric text-3xl'>goal</p>
-              <p className='text-lg font-mono'>
-                The new WNYU website has to have some core functionality: you
-                have to be able to listen to our broadcast, see information
-                about the current show, as well as our full grid, and to get
-                information about the station.{' '}
-                <span className='text-greyish'>
-                  (Also a way to listen to archived show episodes is in the
-                  works)
-                </span>
+              <p className='text-lg'>
+                The initial goal for the revival of STATIC, was a print magazine{' '}
+                <span className='text-greyish'>(which we eventually made)</span>
+                , but the school was... averse to that idea and encouraged us to
+                just put it online. We
               </p>
             </div>
           </div>

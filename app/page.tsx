@@ -35,22 +35,22 @@ export default function Home() {
             </svg>
           </Link>
         </div>
-        <div className='col-span-4 row-span-7 justify-between  bg-buffalo font-mono pl-26 p-20 flex flex-col gap-10 text-3xl text-whiteish'>
+        <div className='col-span-4 row-span-7 justify-between bg-buffalo font-mono pl-26 p-20 flex flex-col gap-10 text-3xl text-whiteish'>
           <p>WORK</p>
-          <ol className='list-decimal'>
+          <ol className='list-decimal list-outside'>
             <Link href='/wnyu/'>
               <li className='hover:underline hover:cursor-pointer'>WNYU</li>
             </Link>
             <Link href='/static/'>
               <li className='hover:underline hover:cursor-pointer'>STATIC</li>
             </Link>
-            <Link href='/work/eroft/'>
+            <Link href='/eroft/'>
               <li className='hover:underline hover:cursor-pointer'>EROFT</li>
             </Link>
-            <Link href='/work/visual/'>
+            <Link href='/visual/'>
               <li className='hover:underline hover:cursor-pointer'>VISUAL</li>
             </Link>
-            <Link href='/work/penaltybox/'>
+            <Link href='/penaltybox/'>
               <li className='hover:underline hover:cursor-pointer'>
                 PENALTYBOX
               </li>
