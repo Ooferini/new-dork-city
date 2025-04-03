@@ -1,4 +1,4 @@
-import me from '../../../public/images/me.gif';
+import me from '../../../../public/images/me.gif';
 import Image from 'next/image';
 
 export default function about() {
@@ -27,7 +27,7 @@ export default function about() {
           src={me}
           height={800}
           width={500}
-          alt='an gif of images of me, Josef!'
+          alt='a gif of images of me, Josef!'
         />
       </div>
     </div>

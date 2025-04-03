@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import ss1 from '../../../public/images/work/static/static-1.jpg';
+import ss1 from '../../../../public/images/work/penaltybox/81mph.jpg';
 
 export default function page() {
   // useGSAP(() => {
@@ -46,45 +46,45 @@ export default function page() {
   // });
 
   return (
-    <div className='flex flex-col text-whiteish bg-buffalo pt-16'>
-      <div className='bg-blackish flex flex-row py-20 justify-around w-full'>
+    <div className='flex flex-col  bg-blackish pt-16'>
+      <div className='bg-newyork flex flex-row py-20 justify-around w-full'>
         <div className='flex w-1/3 flex-col justify-around font-mono text-whiteish text-4xl'>
-          <p className='mx-auto'>VISUAL</p>
+          <p className='mx-auto'>PENALTYBOX</p>
         </div>
         <div className='flex w-2/3 flex-col justify-around'>
           <p className='mx-auto font-selectric text-whiteish text-3xl'>
-            graphic/visual design work
+            concept and music for penaltybox, my &apos;band&apos;
           </p>
         </div>
       </div>
-      <div className='bg-whiteish text-blackish flex' id='content'>
+      <div className='bg-blackish text-whiteish flex' id='content'>
         <div className='w-1/2'>
           <div id='leftScroll' className='flex flex-col justify-around h-100'>
             <div className='w-full p-20 flex flex-col gap-10'>
               <p className='underline font-selectric text-3xl'>about</p>
-              <p className='text-lg font-mono'>
-                I co-founded/revived STATIC, WNYU&apos;s sporadically-printed
-                program guide in Spring 2023 and have been serving as its
-                labelless &apos;tech guy&apos; ever since. We started with a
-                site on{' '}
+              <p className='text-lg'>
+                PENALTYBOX is a &apos;band&apos; consisting of me and my friends
+                Leah and Collin. Existing mostly as a concept{' '}
+                <span className='text-greyish'>(for now)</span>, it became a
+                little more real when I took Bedroom Beatmaking, a class where I
+                learned how to use Ableton Live for music production. I released
+                my final project for the class under the penaltybox moniker on{' '}
                 <Link
-                  href='https://cargo.site'
-                  className='underline decoration-dashed hover:cursor-pointer hover:decoration-solid'
+                  target={'_blank'}
+                  href='https://soundcloud.com/ooferini/sets/81mph'
+                  className='underline decoration-dashed hover:cursor-pointer hover:decoration-solid text-[#FF3300]'
                 >
-                  cargo
+                  soundcloud
+                </Link>{' '}
+                and{' '}
+                <Link
+                  target={'_blank'}
+                  href='https://www.ninaprotocol.com/releases/penaltybox81-81mph'
+                  className='underline decoration-dashed hover:cursor-pointer hover:decoration-solid text-[#569AFF]'
+                >
+                  nina
                 </Link>
-                , then we overhauled the site using WordPress.{' '}
-                <span className='text-greyish'>
-                  (Also we&apos;re working on re-doing it again in React using
-                  the Sanity CMS, stay tuned)
-                </span>
-              </p>
-              <p className='underline font-selectric text-3xl'>goal</p>
-              <p className='text-lg font-mono'>
-                The initial goal for the revival of STATIC, was a print magazine{' '}
-                <span className='text-greyish'>(which we eventually made)</span>
-                , but the school was... averse to that idea and encouraged us to
-                just put it online. We
+                . I also designed the EP&apos;s cover.
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import me from '../public/images/me.jpg';
+import me from '../../public/images/me.jpg';
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
             good-looking, intuitive designs.
           </p>
           <Link
-            href='../about/'
+            href='josef/about/'
             className='flex justify-start gap-5 hover:underline hover:cursor-pointer text-newyork'
           >
             Learn More
@@ -38,19 +38,19 @@ export default function Home() {
         <div className='col-span-4 row-span-7 justify-between bg-buffalo font-mono pl-26 p-20 flex flex-col gap-10 text-3xl text-whiteish'>
           <p>WORK</p>
           <ol className='list-decimal list-outside'>
-            <Link href='/wnyu/'>
+            <Link href='josef/wnyu/'>
               <li className='hover:underline hover:cursor-pointer'>WNYU</li>
             </Link>
-            <Link href='/static/'>
+            <Link href='josef/static/'>
               <li className='hover:underline hover:cursor-pointer'>STATIC</li>
             </Link>
-            <Link href='/eroft/'>
+            <Link href='josef/eroft/'>
               <li className='hover:underline hover:cursor-pointer'>EROFT</li>
             </Link>
-            <Link href='/visual/'>
+            <Link href='josef/visual/'>
               <li className='hover:underline hover:cursor-pointer'>VISUAL</li>
             </Link>
-            <Link href='/penaltybox/'>
+            <Link href='josef/penaltybox/'>
               <li className='hover:underline hover:cursor-pointer'>
                 PENALTYBOX
               </li>

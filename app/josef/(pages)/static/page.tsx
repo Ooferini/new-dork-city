@@ -2,7 +2,8 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import ss1 from '../../../public/images/work/wnyu/wnyu-1.jpg';
+import ss1 from '../../../../public/images/work/static/static-1.jpg';
+import ss2 from '../../../../public/images/work/static/static-2.jpg';
 
 export default function page() {
   // useGSAP(() => {
@@ -46,15 +47,15 @@ export default function page() {
   // });
 
   return (
-    <div className='pt-16 bg-newyork flex flex-col text-whiteish'>
+    <div className='flex flex-col text-whiteish bg-buffalo pt-16'>
       <div className='bg-whiteish flex flex-row py-20 justify-around w-full'>
         <div className='flex w-1/3 flex-col justify-around'>
           <Link
-            href='https://wnyu.vercel.app'
+            href='https://staticmag.org'
             target={'_blank'}
             className='font-mono text-blackish text-4xl mx-auto flex flex-row gap-5 hover:cursor-pointer hover:underline'
           >
-            WNYU
+            STATIC
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
@@ -73,56 +74,56 @@ export default function page() {
         </div>
         <div className='flex w-2/3 flex-col justify-around'>
           <p className='mx-auto font-selectric text-blackish text-3xl'>
-            NYU&apos;s student-run radio station
+            wnyu&apos;s online music magazine
           </p>
         </div>
       </div>
-      <div className='bg-buffalo flex' id='content'>
+      <div className='bg-newyork flex' id='content'>
         <div className='w-1/2'>
           <div id='leftScroll' className='flex flex-col justify-around h-100'>
             <div className='w-full p-20 flex flex-col gap-10'>
               <p className='underline font-selectric text-3xl'>about</p>
               <p className='text-lg font-mono'>
-                I have been a DJ at WNYU since my first semester at NYU, and as
-                of Fall 24, I&apos;ve also served as the Tech Director of the
-                station. This means I maintain the website, but most of my work
-                has been on developing our new website!
-              </p>
-              <p className='text-lg font-mono'>
-                This project was started by{' '}
+                I co-founded/revived STATIC, WNYU&apos;s sporadically-printed
+                program guide in Spring 2023 and have been serving as its
+                labelless &apos;tech guy&apos; ever since. We started with a
+                site on{' '}
                 <Link
-                  href='https://github.com/hminsky2002'
+                  href='https://cargo.site'
                   className='underline decoration-dashed hover:cursor-pointer hover:decoration-solid'
                 >
-                  Harry Minsky
+                  cargo
                 </Link>
-                , the previous Tech Director at the station, and I&apos;ve
-                learned so much from him. Thanks Harry
+                , then we overhauled the site using WordPress.{' '}
+                <span className='text-greyish'>
+                  (Also we&apos;re working on re-doing it again in React using
+                  the Sanity CMS, stay tuned)
+                </span>
               </p>
               <p className='underline font-selectric text-3xl'>goal</p>
               <p className='text-lg font-mono'>
-                The new WNYU website has to have some core functionality: you
-                have to be able to listen to our broadcast, see information
-                about the current show, as well as our full grid, and to get
-                information about the station.{' '}
-                <span className='text-greyish'>
-                  (Also a way to listen to archived show episodes is in the
-                  works)
-                </span>
+                The initial goal for the revival of STATIC, was a print magazine{' '}
+                <span className='text-greyish'>(which we eventually made)</span>
+                , but the school was... averse to that idea and encouraged us to
+                just put it online.
               </p>
             </div>
           </div>
         </div>
-        <div className='w-1/2'>
-          <div
-            id='rightScroll'
-            className='flex flex-col gap-20 justify-around h-200'
-          >
+        <div className='w-1/2 p-20'>
+          <div id='rightScroll' className='flex flex-col gap-20 justify-around'>
             <Image
               alt='me'
               width='500'
               height='200'
               src={ss1}
+              className='mx-auto'
+            ></Image>
+            <Image
+              alt='me'
+              width='500'
+              height='200'
+              src={ss2}
               className='mx-auto'
             ></Image>
           </div>

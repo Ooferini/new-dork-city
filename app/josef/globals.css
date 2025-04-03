@@ -3,7 +3,7 @@
   font-family: 'Selectric';
   src:
     local('IBM Selectric Light'),
-    url('../public/fonts/IBM_Selectric_Light_Italic.ttf');
+    url('../../public/fonts/IBM_Selectric_Light_Italic.ttf');
   font-weight: bold;
 }
 @import 'tailwindcss';
