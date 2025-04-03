@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import Image from 'next/image';
 import ss1 from '../../../../public/images/work/visual/visual-1.jpg';
 import ss2 from '../../../../public/images/work/visual/visual-2.jpg';
