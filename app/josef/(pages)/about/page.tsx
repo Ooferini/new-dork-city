@@ -14,18 +14,28 @@ export default function about() {
           as well as web design/development tools like Figma and React.
         </p>
         <p className='text-2xl'>
-          I&apos;m also passionate about music! I currently serve as the Tech
-          Director at WNYU where I&apos;m developing our new website. There, I
-          also co-founded our music and culture magazine, STATIC. I care about
-          cultivating community around music and want to work with others to
-          uplift musicians and music lovers with technology and design.
+          I&apos;m also very passionate about music and public service! I
+          currently serve as the Tech Director at WNYU where I&apos;m developing
+          our new website. There, I also co-founded our music and culture
+          magazine, STATIC. I care about cultivating community around music and
+          want to work with others to uplift musicians and music lovers with
+          technology and design.
         </p>
+        <div className='flex justify-left text-xl font-mono'>
+          <a
+            className='flex-shrink bg-newyork p-4'
+            href='https://drive.google.com/file/d/1q9ipDMrvPcU7jpkacno1bmRFbZKY6N1C/view?usp=sharing'
+            target='_blank'
+          >
+            resume
+          </a>
+        </div>
       </div>
       <div className='w-1/3 hover:pause bg-buffalo flex flex-col justify-around p-20'>
         <Image
           className=''
           src={me}
-          height={800}
+          height={600}
           width={500}
           alt='a gif of images of me, Josef!'
         />
