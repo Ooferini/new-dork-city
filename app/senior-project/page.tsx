@@ -39,7 +39,7 @@ export default function blog() {
             my friends? Or something that’s goal is to overthrow Spotify? I
             don’t have the economic expertise (or resources) to crerate
             something of large enough scale to truly rival Spotify (or any other
-            streamer). I'm in another class right now called Engineering
+            streamer). I’m in another class right now called Engineering
             Resilience that’s all about technologies that don’t rely on a
             centralized grid. What would a decentralized (not in the blockchain
             way) music platform work? Maybe the social features in my project
