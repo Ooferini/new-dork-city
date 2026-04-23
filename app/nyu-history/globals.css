@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+  font-family: 'Selectric';
+  src:
+    local('IBM Selectric Light'),
+    url('../../public/fonts/IBM_Selectric_Light_Italic.ttf');
+  font-weight: bold;
+}
+@import 'tailwindcss';
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: 'Inter', Helvetica, sans-serif;
+  --font-mono: 'IBM Plex Mono', Courier;
+  --font-selectric: 'Selectric', Courier;
+  --color-whiteish: #fbfffe;
+  --color-blackish: #001514;
+  --color-greyish: #a6a0a4;
+  --color-buffalo: #2378a9;
+  --color-newyork: #d63535;
+}
+
+@layer utilities {
+  .container-hf {
+    height: calc(100dvh - 4rem);
+  }
+
+  .pause {
+    animation-play-state: paused;
+  }
+}
