@@ -53,7 +53,14 @@ export default function Gould() {
     <div className='lg:mx-auto lg:w-1/2 border-black border-2 md:border-y-none flex flex-col'>
       <div className='mx-6 py-6 border-b-2 text-4xl'>Gould Plaza</div>
       <div className='mx-6 py-6 border-b-2 text-xl'>
-        Gould Plaza is a plaza{' '}
+        an outdoor plaza located on West 4th Street between Washington Square
+        East and Mercer Street. Since 1892, the Gould family has been
+        exceptionally generous to New York University. To express its gratitude,
+        the University named this plaza in memory of Frank Jay Gould of the
+        class of 1899, his father, Jay Gould, and his sister, Helen Gould
+        Shepard, a graduate of the NYU School of Law. The Plaza is home to the
+        Stern School of Business, Warren Weaver Hall, and the Courant Institute
+        for Mathematics.
       </div>
       <div className='mx-6 py-6  text-xl'>
         Hear about a student who participated in the Palestine solidarity
