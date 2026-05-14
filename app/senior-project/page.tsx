@@ -3,6 +3,10 @@ import map from '../../public/images/process/week1/map.png';
 import dock from '../../public/images/process/dock.png';
 import upload from '../../public/images/process/upload.png';
 import album from '../../public/images/process/album.gif';
+import sampleReadme from '../../public/images/process/week11/sample-readme.jpeg';
+import storyboard from '../../public/images/process/week11/storyboard.jpg';
+import prompts from '../../public/images/process/week11/three-prompts.jpeg';
+import screenshot from '../../public/images/process/week15/screenshot.png';
 
 export default function blog() {
   return (
@@ -11,6 +15,71 @@ export default function blog() {
         Josef&apos;s Senior Project Process Site
       </div>
       <div className='px-40'>
+        <div className='border-whiteish border-b-2 p-4 flex flex-col'>
+          <div className='font-selectric text-3xl pb-2'>
+            Week 15... and beyond
+          </div>
+          <p className='text-lg font-mono pb-2'>
+            This is the last post on this progress blog I guess! It&apos;s crazy
+            it&apos;s been a whole semester already. Anyways, I&apos;ve made
+            probably the most progress between the midterm and now. Here&apos;s
+            what it looks like!
+          </p>
+          <Image
+            className='mx-auto pb-2'
+            src={screenshot}
+            alt='screenshot of the frontend'
+          />
+          <p className='text-lg font-mono pb-2'>
+            It&apos;s a full stack application with a frontend and backend that
+            I created. The backend stores music, as well as a catalog of the
+            music (as well as some information about that instance of the server
+            like users and a title), and serves it to the frontend, a React
+            application. That is greatly oversimplifying it. I haven&apos;t made
+            anything of this scope by myself before, but it was a lot of fun and
+            I&apos;m excited to keep working on it.
+          </p>
+          <p className='text-lg font-mono pb-2'>
+            In its current state, it lets you generally interface with the music
+            library. There&apos;s nothing to start, but you (or anyone on the
+            network) can upload an album, and then you&apos;ll all see it on
+            your web interface. You get a list of albums you can look through,
+            each having a tracklist and some comments. If you click on the track
+            it&apos;ll take you to the mp3 for that track! The server reads the
+            metadata of the music to show what album you&apos;re listening to
+            and who it&apos;s by.
+          </p>
+          <p className='text-lg font-mono pb-2'>
+            There are a lot more features that I want to implement! I want to
+            figure out streaming the music from the server. It seems pretty
+            complicated but doable. I also need to add user profiles so comments
+            and music uploads can come from specific people—right now it&apos;s
+            all just from me allegedly. And I want to figure out ways to upload
+            music that isn&apos;t as a whole album.
+          </p>
+        </div>
+        <div className='border-whiteish border-b-2 p-4 flex flex-col'>
+          <div className='font-selectric text-3xl pb-2'>Week 11 ~ 4/1-4/7</div>
+          <p className='text-lg font-mono pb-2'>
+            In class this week, we did three exercises. The first was an off the
+            cuff sample readme. The next was a storyboard for a one-minute
+            promotional video. The third was a response to three writing
+            prompts. My responses to those are pictured below:
+          </p>
+          <div className='w-2/3 mx-auto'>
+            <Image
+              className='mx-auto pb-2'
+              src={sampleReadme}
+              alt='sample readme responding to some prompts'
+            />
+            <Image className='mx-auto pb-2' src={storyboard} alt='storyboard' />
+            <Image
+              className='mx-auto pb-2'
+              src={prompts}
+              alt='responses to prompts'
+            />
+          </div>
+        </div>
         <div className='border-whiteish border-b-2 p-4 flex flex-col'>
           <div className='font-selectric text-3xl pb-2'>
             Week 9 ~ 3/18-3/24 ~ Midterm
